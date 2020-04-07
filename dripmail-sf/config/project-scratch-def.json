@@ -1,0 +1,15 @@
+{
+  "orgName": "Emergence DripMail Scratch",
+  "edition": "Partner Developer",
+  "features": ["MaxApexCodeSize:10"],
+  "settings": {
+    "orgPreferenceSettings": {
+      "s1EncryptedStoragePref2": false
+    },
+    "securitySettings": {
+      "sessionSettings": {
+        "sessionTimeout": "TwelveHours"
+      }
+    }
+  }
+}

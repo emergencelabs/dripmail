@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Senders_Confirmed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that a user has reviewed and approved the automatically created Senders for this Domain</description>
+    <externalId>false</externalId>
+    <label>Senders Confirmed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

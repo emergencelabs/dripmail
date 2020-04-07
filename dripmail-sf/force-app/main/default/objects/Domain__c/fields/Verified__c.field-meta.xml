@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verified__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates if all DNS Tokens for this Domain are completed. A DNS Token is completed once found via lookup on the name server.</description>
+    <externalId>false</externalId>
+    <label>Verified</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

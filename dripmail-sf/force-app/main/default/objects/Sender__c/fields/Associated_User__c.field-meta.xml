@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Associated_User__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Salesforce User this Sender is associated to. Used for finding a Sender for a dynamic send from (e.g. Lead/Contact Owner).</description>
+    <externalId>false</externalId>
+    <label>Associated User</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Senders</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

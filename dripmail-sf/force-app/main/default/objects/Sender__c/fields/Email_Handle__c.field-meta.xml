@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Handle__c</fullName>
+    <description>The portion of the senders email before the @ symbol. This is automatically joined with the Domain Name to produce the From Email. For example an Email Handle of &#39;marketing&#39; and a Domain Name of &#39;emergencelabs.io&#39; will produce &#39;marketing@emergencelabs.io&#39;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The portion of the senders email before the @ symbol. This is automatically joined with the Domain Name to produce the From Email. For example an Email Handle of &#39;marketing&#39; and a Domain Name of &#39;emergencelabs.io&#39; will produce &#39;marketing@emergencelabs.io&#39;</inlineHelpText>
+    <label>Email Handle</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
